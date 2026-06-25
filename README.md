@@ -117,18 +117,3 @@ Abra os arquivos diretamente no navegador ou utilize uma extensão como **Live S
 ```
 
 ---
-
-## 📦 Populando o banco inicial
-
-Para inserir poções de exemplo ao iniciar o servidor, adicione no `server.js` ou `connection.js` após o `sync()`:
-
-```js
-await Potion.bulkCreate([
-  { name: "Poção Blue Sky", description: "Provê um surto de inspiração por 24 horas.", value: 300 },
-  { name: "Poção do Perfume Misterioso", description: "Faz você cheirar lilás e groselha por 24 dias.", value: 200 },
-  { name: "Poção de Pinus", description: "Faz você ficar 10 cm mais alto! Efeitos colaterais desconhecidos.", value: 3000 },
-  { name: "Poção da Beleza Eterna", description: "Veneno que mata rápido.", value: 100 },
-  { name: "Poção do Arco Íro", description: "Traz felicidade momentânea. Pode durar de 10 minutos a 2 dias.", value: 120 },
-  { name: "Caldeirão das Verdades Secretas", description: "As pessoas lhe dirão apenas verdades por 1 hora. É necessário beber os 5L.", value: 150 },
-]);
-```

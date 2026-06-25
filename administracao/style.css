@@ -1,0 +1,53 @@
+/* Estilos específicos para a área administrativa */
+.admin-section {
+    background: #161722;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    border: 1px solid #232538;
+}
+.form-control, .form-select {
+    background-color: #0b0c10;
+    border: 1px solid #232538;
+    color: #ffffff;
+}
+.form-control:focus, .form-select:focus {
+    background-color: #0b0c10;
+    border-color: #daff09;
+    color: #ffffff;
+    box-shadow: 0 0 0 0.25rem rgba(218, 255, 9, 0.25);
+}
+.table {
+    color: #e5e5e7;
+    vertical-align: middle;
+}
+.table th {
+    color: #daff09;
+    border-bottom: 2px solid #232538;
+}
+.table td {
+    border-bottom: 1px solid #232538;
+}
+.btn-danger-custom {
+    background-color: transparent;
+    border: 1px solid #ff4a4a;
+    color: #ff4a4a;
+    transition: all 0.3s;
+}
+.btn-danger-custom:hover {
+    background-color: #ff4a4a;
+    color: #0b0c10;
+    font-weight: bold;
+}
+.btn-edit-custom {
+    background-color: transparent;
+    border: 1px solid #daff09;
+    color: #daff09;
+    transition: all 0.3s;
+}
+.btn-edit-custom:hover {
+    background-color: #daff09;
+    color: #0b0c10;
+    font-weight: bold;
+}
